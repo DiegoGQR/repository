@@ -45,11 +45,6 @@ public class BancoConsumidor1 extends RouteBuilder{
 //.log("${body}")
 //.to("log:BEAN-DIEGO-1")
 //.end();
-//
-//.unmarshal(jsonDataFormat)
-//.process(new ProcessorCola())
-//.end();
-
 //from("activemq:QUINONEZ-ATLAS-IN")
 //.to("log:BEAN-DIEGO-1")
 //.log("Mensaje recibido - BancoConsumidor1 - ATLAS ${body}")
