@@ -10,7 +10,7 @@ import py.edu.ucom.is2.proyectocamel.routes.rest.tipos.AlumnoRequest;
 import py.edu.ucom.is2.proyectocamel.routes.rest.tipos.AlumnoResponse;
 
 
-@Component
+//@Component
 public class BancoProductor extends RouteBuilder{
 
 	@Autowired

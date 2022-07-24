@@ -5,7 +5,7 @@ import org.apache.camel.component.jackson.JacksonDataFormat;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class BancoConsumidor3 extends RouteBuilder{
 	private JacksonDataFormat jsonDataFormat;
 	@Autowired

@@ -2,7 +2,7 @@ package py.edu.ucom.is2.proyectocamel.tarea1;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class BancoService {
 	public BancoResponse mostrarDatos(BancoRequest bancoRequest) {
 		BancoResponse bancoResponse = new BancoResponse();

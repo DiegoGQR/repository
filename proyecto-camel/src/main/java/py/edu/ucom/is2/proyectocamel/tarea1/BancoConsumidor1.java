@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 import py.edu.ucom.is2.proyectocamel.routes.ProcessorTest;
 
-@Component
+//@Component
 public class BancoConsumidor1 extends RouteBuilder{
 	private JacksonDataFormat jsonDataFormat;
 	@Autowired
